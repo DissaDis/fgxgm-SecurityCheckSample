@@ -1,6 +1,6 @@
-FROM node:18.19.1
+FROM node:21.7.0-bookworm-slim
 
-RUN npm install -g npm@9.1.3
+RUN npm install -g npm@10.5.0
 
 ADD package.json .
 ADD index.js .
